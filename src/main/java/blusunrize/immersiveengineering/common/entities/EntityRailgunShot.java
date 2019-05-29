@@ -38,7 +38,7 @@ public class EntityRailgunShot extends EntityIEProjectile
 	{
 		super(world, x, y, z, ax, ay, az);
 		this.setSize(.5f, .5f);
-		this.ammo = y; // Should be ammo. Changed to test that travis can fail
+		this.ammo = ammo;
 		this.setAmmoSynced();
 		this.pickupStatus = PickupStatus.ALLOWED;
 	}
